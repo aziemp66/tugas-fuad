@@ -1,19 +1,19 @@
 <resources>
-    <string name="app_name">tugas-fuad</string>
+    <string name="app_name">BPH Guide</string>
     <string name="author">By Fuad Fadillah</string>
-    <string name="welcome">Infografis LUTS/BPH</string>
+    <string name="welcome">Penilaian Klinis LUTS/BPH</string>
     <string name="menu_main">Kembali ke Menu Utama</string>
-    <string name="menu_about">Tentang LUTS/BPH</string>
-    <string name="menu_history">Sejarah</string>
+    <string name="menu_about">Definisi LUTS/BPH</string>
+    <string name="menu_history">Anamnesis</string>
     <string name="menu_physical_exam">Pemeriksaan Fisik</string>
-    <string name="menu_investigation">Investigasi Lebih Lanjut</string>
-    <string name="menu_optional_investigation">Investigasi Opsional</string>
-    <string name="about_title">Tentang LUTS</string>
+    <string name="menu_investigation">Pemeriksaan Penunjang</string>
+    <string name="menu_optional_investigation">Pemeriksaan Penunjang Lainnya</string>
+    <string name="about_title">Definisi LUTS</string>
     <string name="about_text_luts">
         Lower urinary tract symptoms (LUTS) atau gejala saluran kemih bagian bawah adalah serangkaian gejala yang berkaitan dengan gangguan fungsi kandung kemih dan uretra (saluran yang membawa urin keluar dari tubuh). Gejala LUTS dapat mencakup sering buang air kecil, kesulitan memulai buang air kecil, aliran urin yang lemah, rasa tidak tuntas setelah buang air kecil, atau sering terbangun di malam hari untuk buang air kecil (nokturia).
     </string>
     <string name="about_text_bph">
-        Benign Prostate Hypertrophy (BPH) atau Hiperplasia Prostat Jinak adalah pembesaran prostat yang sering terjadi pada pria yang lebih tua. Pembesaran ini dapat menekan uretra dan menyebabkan gejala LUTS, seperti sulit buang air kecil, aliran urin yang lemah, atau sering buang air kecil. Meski tidak bersifat kanker, BPH bisa memengaruhi kualitas hidup jika gejalanya cukup mengganggu.
+        Benign Prostate Hyperplasia (BPH) atau Hiperplasia Prostat Jinak adalah pembesaran prostat yang sering terjadi pada pria yang lebih tua. Pembesaran ini dapat menekan uretra dan menyebabkan gejala LUTS, seperti sulit buang air kecil, aliran urin yang lemah, atau sering buang air kecil. Meski tidak bersifat kanker, BPH bisa memengaruhi kualitas hidup jika gejalanya cukup mengganggu.
     </string>
     <string name="investigation_intro">Investigasi Lebih Lanjut bisa membantu memperkuat diagnosis</string>
     <string name="investigation_list_1_title">A. Urinalysis</string>
@@ -47,7 +47,7 @@
     </string>
 
     <string name="optional_investigation_intro">
-        Studi Opsional yang bisa berguna untuk mengkonfirmasi diagnosis atau mengevaluasi keberadaan dan keparahan BPH termasuk PVR, uroflowmetry dan studi aliran tekanan.
+        Pemeriksaan Penunjang Lainnya yang bisa berguna untuk mengkonfirmasi diagnosis atau mengevaluasi keberadaan dan keparahan BPH termasuk PVR, uroflowmetry dan studi aliran tekanan.
     </string>
     <string name="optional_investigation_list_1_title">
         A. Cystoscopy
@@ -64,11 +64,11 @@
         Pengukuran laju aliran tidak rutin ditawarkan selama penilaian awal kepada pasien yang mengidap LUTS.
     </string>
     <string name="optional_investigation_list_3_title">
-        C. Volume Sisa Urin Setelah Berkemih
+        C. Post-Void Resiual Volume
     </string>
     <string name="optional_investigation_list_3_text">
         Menurut AUA, PVR bisa berguna dalam menentukan kemampuan dasar kandung kemih untuk mengosongkan, mendeteksi retensi urin parah yang mungkin tidak merespon terapi medis, dan/atau mengindikasikan disfungsi detrusor.
-        Tidak ada definisi yang diterima secara universal tentang volume urin residual yang signifikan secara klinis, mengikuti tren dari waktu ke waktu adalah cara terbaik untuk menggunakanakat ini.
+        Tidak ada definisi yang diterima secara universal tentang volume urin residual yang signifikan secara klinis, mengikuti tren dari waktu ke waktu adalah cara terbaik untuk menggunakan alat ini.
         Selama Penilaian Awal LUTS, PVR tidak secara rutin ditawarkan kepada pasien.
     </string>
     <string name="history_table_intro">Kategori Gejala pasien yang mengidap LUTS :</string>
@@ -81,10 +81,10 @@
     </string>
 
     <string-array name="storage_symptoms">
-        <item>Frekuensi berkemih meningkat</item>
+        <item>Frequency</item>
         <item>Nocturia</item>
-        <item>Urgensi</item>
-        <item>Inkontinensia</item>
+        <item>Urgency</item>
+        <item>Urgency Inkontinence</item>
     </string-array>
 
     <!-- Voiding Symptoms -->
@@ -133,7 +133,7 @@
         B. Digital Rektal Examination (DRE)
     </string>
     <string name="physical_list_2_text">
-        DRE yang benar bisa menentukan besar, simetri, konsistensi, keperabaan median sulcus dan keberadaan modul/massa dan kelembutan prostat.
+        DRE yang benar bisa menentukan besar, simetri, konsistensi, keperabaan sulcus median dan keberadaan modul/massa dan kelembutan prostat.
 
         Normalnya kelenjar itu sebesar kacang kenari, 2-3 cm namun lebih lebar pada di atas
     </string>
@@ -148,4 +148,135 @@
         <item>Kelenjar prostat mungkin tidak memiliki ciri-ciri di atas tetapi dengan nilai PSA yang meningkat.</item>
     </string-array>
 
+    <string name="lifestyle_title">Perubahan gaya hidup</string>
+    <string name="lifestyle_instructions">Yakinkan pasien dan tawarkan saran tentang intervensi gaya hidup seperti di bawah ini</string>
+
+    <!-- Lifestyle suggestions -->
+    <string-array name="lifestyle_suggestions">
+        <item>A. Batasi asupan cairan sebelum tidur atau bepergian.</item>
+        <item>B. Hindari diuretik seperti alkohol dan kafein</item>
+        <item>C. Hindari iritan kandung kemih misalnya makanan yang sangat pedas dan bersifat iritatif</item>
+        <item>D. Hindari sembelit dan tingkatkan aktivitas fisik</item>
+        <item>E. Saran untuk menurunkan berat badan</item>
+        <item>F. Latihan Kegel</item>
+        <item>G.Regimen pengosongan kandung kemih yang terjadwal [misalnya buang air kecil setiap 3 jam] dan teknik pengosongan kandung kemih ganda</item>
+        <item>H. Hindari dekongestan dan antihistamin yang dijual bebas yang dapat memperburuk gejala. Kenali obat lain yang dapat memperburuk gejala.</item>
+    </string-array>
+
+    <!-- Question about improvement -->
+    <string name="lifestyle_reassess">Menilai kembali gejala setelah 3 bulan, IPSS dan QoL skor harus diberikan kembali.</string>
+    <string name="lifestyle_question">Ada perbaikan gejala?</string>
+
+    <!-- Responses -->
+    <string name="lifestyle_yes">Ya!</string>
+    <string name="lifestyle_no">Tidak</string>
+    <string name="lifestyle_next_action">Teruskan tindak lanjutnya</string>
+    <string name="lifestyle_back_to_home">Kembali ke Halaman Utama</string>
+    <string name="menu_lifestyle">Perubahan Gaya Hidup</string>
+    <string name="menu_medical_therapy">Terapi Medis</string>
+    <string name="menu_surgical_intervention">Intervensi Bedah</string>
+
+    <string name="medical_therapy_intro">
+        Terapi farmakologis harus diberikan kepada pasien dengan LUTS/BPH yang mengganggu atau sedang dan berat.
+    </string>
+    <string name="medical_therapy_list_1_title">Penghambat Alfa</string>
+    <string name="medical_therapy_list_1_text">
+
+Penghambat alfa misalnya Terazosin alfuzosin, doxazosin, tamsulosin efektif dalam memperbaiki gejala LUTS
+\n\n
+Dosis terazosin:
+
+Awal: 1mg ON Pemeliharaan: 5mg~10mg sekali sehari Maksimal 20-40mg/hari: Dari Buku Biru Malaysia 2022
+    </string>
+    <string name="medical_therapy_list_1_extra">
+        Info tambahan: Menurut AUA, semua penghambat Alfa telah menunjukkan kemanjuran yang sama dalam penelitian, oleh karena itu tidak disarankan untuk beralih di antara penghambat alfa yang berbeda jika pasien gagal memperoleh perbaikan yang cukup dengan obat pertama dalam dosis yang tepat, karena kemungkinan besar keberhasilannya tidak akan tercapai.\n\n
+
+Sebaliknya, dianjurkan untuk menilai ulang dan mendiskusikan strategi pengobatan alternatif atau untuk menyelidiki lebih lanjut fenotipe pasien (misalnya, menyingkirkan prostat yang terlalu besar atau adanya lobus intravesikal/tengah).
+        Namun, mengganti dari satu alpha blocker ke alpha blocker lain berdasarkan efek sampingnya adalah hal yang bermanfaat.
+    </string>
+    <string name="medical_therapy_list_2_title">
+Penghambat fosfodiesterase 5
+    </string>
+    <string name="medicaL_therapy_list_2_text">
+Inhibitor 5 alfa reduktase seperti Finasteride\n\n
+
+[Dewasa: Sebagai monoterapi atau kombinasi dengan doxazosin: 5 mg sekali sehari selama minimal 6 bulan.]\n\n
+
+dan dutasterida\n\n
+
+[Dosis AVODART yang dianjurkan adalah satu kapsul (0,5 mg) yang diminum sekali sehari. Untuk pengobatan BPH, AVODART dapat diberikan sendiri atau dikombinasikan dengan alfa-blocker tamsulosin (0,4 mg).]\n\n
+
+bertindak melalui penghambatan 5 alfa reduktase, yang menyebabkan berkurangnya ketersediaan DHT di prostat.\n\n
+
+Hal ini pada gilirannya menyebabkan pengurangan keseluruhan rangsangan pertumbuhan androgenik pada prostat, peningkatan apoptosis dan atrofi, dan akhirnya penyusutan organ berkisar antara 15-25% yang diukur
+pada usia enam bulan.\n\n
+
+Untuk tujuan perbaikan gejala, monoterapi 5-ARI harus digunakan sebagai pilihan pengobatan pada pasien dengan LUTS/BPH dengan pembesaran prostat sebagaimana dinilai dari volume prostat > 30cc pada pencitraan, antigen spesifik prostat (PSA) > 1,5ng/dL, atau pembesaran prostat yang teraba pada pemeriksaan colok dubur (DRE). (Rekomendasi Moderat; Tingkat Bukti: Kelas B)\n\n
+
+Sebelum memulai 5-ARI, dokter harus memberi tahu pasien tentang risiko efek samping seksual, efek samping fisik tertentu yang tidak umum, dan risiko rendah kanker prostat. (Rekomendasi Moderat; Tingkat Bukti: Kelas C)\n\n
+    </string>
+    <string name="medical_therapy_list_2_extra">
+        Finasterida\n\n
+
+*Tindakan pencegahan khusus Finasteride Kecualikan striktur uretra, infeksi, kanker, kandung kemih hipotonik &amp; gangguan neurogenik lainnya sebelum perawatan.\n\n
+
+Perubahan pada jaringan payudara; kanker payudara pria. Pantau pasien dengan volume urin residual yang besar &amp;/atau aliran urin yang sangat berkurang untuk uropati obstruktif. Lakukan pemeriksaan colok dubur, kadar PSA serum &amp; evaluasi lain untuk kanker prostat sebelum terapi &amp; secara berkala setelahnya. Disfungsi hati. Tidak boleh digunakan pada wanita &amp; anak-anak, Lansia &gt; 70 tahnn.\n\n
+
+*Reaksi yang tidak diinginkan dari Finasteride meliputi hipersensitivitas misalnya, pruritus, urtikaria, angioedema; depresi; penurunan libido; disfungsi ereksi, gangguan ejakulasi, nyeri testis, hematospermia, kanker payudara pria, infertilitas pria &amp;/atau kualitas air mani yang buruk.\n\n
+    </string>
+    <string name="medical_therapy_list_3_title">
+        Antikolinergik
+    </string>
+    <string name="medical_therapy_list_3_text">
+        Agen antikolinergik, baik sendiri atau dalam kombinasi dengan penghambat alfa, dapat ditawarkan sebagai pilihan pengobatan bagi pasien dengan LUTS penyimpanan dominan sedang hingga berat. (Rekomendasi Bersyarat; Tingkat Bukti: Kelas C) misalnya Tolterodin American Urological
+    </string>
+    <string name="medical_therapy_list_4_title">
+        Penghambat fosfodiesterase 5
+    </string>
+    <string name="medical_therapy_list_4_text">
+        Bagi pasien dengan LUTS/BPH tanpa memandang adanya disfungsi ereksi (DE) yang menyertainya, Tadalafil 5 mg per hari dapat didiskusikan sebagai pilihan pengobatan. (Rekomendasi Moderat; Tingkat Bukti: Kelas B) American Urology Association AUA
+    </string>
+    <string name="medical_therapy_list_5_title">
+        Terapi Kombinasi
+    </string>
+    <string name="medical_therapy_list_5_text">
+        Menurut pedoman Asosiasi Urologi Amerika, AUA, 5-ARI yang dikombinasikan dengan penghambat alfa efektif untuk pasien dengan LUTS dan pembesaran Prostat.\n\n
+
+Penghambat reseptor Alfa 1 efektif dalam memberikan pertolongan cepat, sedangkan 5-ARI menargetkan proses penyakit yang mendasarinya.\n\n
+
+Pedoman AUA dari American Urological Association menyarankan bahwa 5-ARI yang dikombinasikan dengan alpha blocker harus ditawarkan sebagai pilihan pengobatan hanya kepada pasien dengan LUTS yang terkait dengan pembesaran prostat yang dapat dibuktikan berdasarkan volume prostat > 30cc pada pencitraan, PSA >1,5ng/dL, atau pembesaran prostat yang teraba pada DRE. (Rekomendasi Kuat; Tingkat Bukti: Kelas A)\n\n
+    </string>
+    <string name="medical_therapy_list_5_extra">
+        Duodart [Dutasteride, tamsulosin hidroklorida.]\n\n
+
+Dosis Duodart\n\n
+
+Pasien >21 tahun (termasuk pasien lanjut usia):\n\n
+
+Dosis Duodart yang dianjurkan adalah satu kapsul setiap hari (0,5 mg/0,4 mg).\n\n
+
+Duodart harus selalu diminum dengan segelas air, hingga 30 menit setelah makan. Obat ini tidak boleh diminum saat perut kosong. Idealnya, obat ini harus diminum pada waktu yang sama setiap hari (ini berarti dengan waktu makan yang sama). Kapsul harus ditelan utuh dan tidak dikunyah atau dibuka, karena kontak dengan isi kapsul dapat mengakibatkan iritasi pada mukosa orofaring (lihat Tindakan pencegahan).\n\n
+
+Petunjuk dosis khusus:\n\n
+
+Pasien lanjut usia: Tidak diperlukan penyesuaian dosis terkait usia.\n\n
+
+Gangguan ginjal: Tidak ada pengalaman yang tersedia pada pasien dengan gangguan ginjal. Oleh karena itu, Duodart harus digunakan dengan hati-hati terutama pada pasien dengan gangguan ginjal berat (klirens kreatinin &lt;10 ml/menit).\n\n
+
+        Gangguan fungsi hati: Tidak ada pengalaman yang tersedia pada pasien dengan gangguan fungsi hati. Duodart harus digunakan dengan hati-hati pada pasien dengan gangguan fungsi hati ringan hingga sedang. Pada pasien dengan gangguan fungsi hati berat, penggunaan Duodart dikontraindikasikan.\n\n
+
+Pasien ≤21 tahun: Duodart tidak diindikasikan pada pasien ≤21 tahun.
+    </string>
+    <string name="medical_therapy_outro">
+        Evaluasi ulang gejala setelah 3 bulan, skor IPSS dan QoL harus dilakukan kembali. Reaksi dan masalah yang tidak diharapkan akibat pengobatan juga harus dipantau dan didiskusikan.
+    </string>
+
+    <string name="surgical_intervention_intro">Operasi bedah dianjurkan bagi pasien yang memiliki:</string>
+    <string-array name="surgical_intervention_lists">
+        <item>A. Insufisiensi ginjal sekunder akibat BPH</item>
+        <item>B. Retensi urin refrakter sekunder akibat BPH</item>
+        <item>C. Infeksi saluran kemih (ISK) berulang</item>
+        <item>D. Batu kandung kemih berulang atau hematuria berat akibat BPH dan/atau dengan LUTS/BPH yang refrakter atau tidak mau menggunakan terapi lain.</item>
+    </string-array>
+    <string name="surgical_intervention_outro">Rujuk ke dokter spesialis urologi untuk penilaian lebih lanjut dan pemilihan tindakan pembedahan yang terbaik bagi pasien. Ada berbagai jenis tindakan pembedahan seperti Transurethral Resection of Prostate [TURP], Simple Prostatectomy, Transurethral Incision of Prostate [TUIP] dan masih banyak lagi.</string>
 </resources>

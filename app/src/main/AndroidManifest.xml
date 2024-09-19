@@ -36,6 +36,13 @@
         <activity
                 android:name=".PhysicalActivity"
                 android:exported="true" />
+        <activity android:name=".LifestyleActivity" />
+        <activity
+                android:name=".MedicalTherapyActivity"
+                android:exported="true" />
+        <activity
+                android:name=".SurgicalInterventionActivity"
+                android:exported="true" />
     </application>
 
 </manifest>
