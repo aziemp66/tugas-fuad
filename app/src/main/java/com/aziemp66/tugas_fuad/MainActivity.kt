@@ -17,6 +17,14 @@ class MainActivity : AppCompatActivity() {
     setContentView(R.layout.activity_main)
 
     initializeComponent()
+  }
+
+  private fun initializeComponent(): Unit {
+    aboutButton = findViewById(R.id.menu_about)
+    historyButton = findViewById(R.id.menu_history)
+    physicalButton = findViewById(R.id.menu_physical)
+    investigationButton = findViewById(R.id.menu_investigation)
+    optionalInvestigationButton = findViewById(R.id.menu_optional_investigation)
 
     aboutButton.setOnClickListener {
       val intent = Intent(this, AboutActivity::class.java)
@@ -29,13 +37,11 @@ class MainActivity : AppCompatActivity() {
 
       startActivity(intent)
     }
-  }
 
-  private fun initializeComponent(): Unit {
-    aboutButton = findViewById(R.id.menu_about)
-    historyButton = findViewById(R.id.menu_history)
-    physicalButton = findViewById(R.id.menu_physical)
-    investigationButton = findViewById(R.id.menu_investigation)
-    optionalInvestigationButton = findViewById(R.id.menu_optional_investigation)
+    optionalInvestigationButton.setOnClickListener {
+      val intent = Intent(this, OptionalInvestigationActivity::class.java)
+
+      startActivity(intent)
+    }
   }
 }

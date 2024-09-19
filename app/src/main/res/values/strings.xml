@@ -15,21 +15,20 @@
     <string name="about_text_bph">
         Benign Prostate Hypertrophy (BPH) atau Hiperplasia Prostat Jinak adalah pembesaran prostat yang sering terjadi pada pria yang lebih tua. Pembesaran ini dapat menekan uretra dan menyebabkan gejala LUTS, seperti sulit buang air kecil, aliran urin yang lemah, atau sering buang air kecil. Meski tidak bersifat kanker, BPH bisa memengaruhi kualitas hidup jika gejalanya cukup mengganggu.
     </string>
-    <string name="investigation_title">Investigasi Lebih Lanjut</string>
     <string name="investigation_intro">Investigasi Lebih Lanjut bisa membantu memperkuat diagnosis</string>
     <string name="investigation_list_1_title">A. Urinalysis</string>
     <string name="investigation_list_1_text">
-        Walaupun Urinalysis tidak bisa mendiagnosis BPH, namun bisa membantu Dokter untuk mengecualikan kasus lain LUTS yang tidak berkaitan dengan BPH, seperti Kanker kKandung Kemih, Batu Ginjal, UTI, Striktur Uretra
+        Walaupun Urinalysis tidak bisa mendiagnosis BPH, namun bisa membantu Dokter untuk mengecualikan kasus lain LUTS yang tidak berkaitan dengan BPH, seperti Kanker Kandung Kemih, Batu Ginjal, UTI, Striktur Uretra.
 
-        Ketika sedang menginpretasi hasil dari Urinalysis, Dokter bisa fokus mengecek apakah terdapat Glucosuria, Proteinuria, Hermaturia atau Infeksi
+        Ketika sedang menginpretasi hasil dari Urinalysis, Dokter bisa fokus mengecek apakah terdapat Glucosuria, Proteinuria, Hermaturia atau Infeksi.
     </string>
     <string name="investigation_list_2_title">B. Ultrasound</string>
     <string name="investigation_list_2_text">
-        Gambar dari Ultrasound bisa membantu penilaian prostat dan mengidentifikasi sebab dari LUTS seperti batu atau penggumpalan
+        Gambar dari Ultrasound bisa membantu penilaian prostat dan mengidentifikasi sebab dari LUTS seperti batu atau penggumpalan.
     </string>
     <string name="investigation_list_3_title">C. Profil Ginjal</string>
     <string name="investigation_list_3_text">
-        Pada penilaian awal, Dokter bisa mengajukan pengecekan profil ginjal apabila diduga ginjal rusak
+        Pada penilaian awal, Dokter bisa mengajukan pengecekan profil ginjal apabila diduga ginjal rusak.
     </string>
     <string name="investigation_list_4_title">
         D. Prostate Serum Antigen [PSA]
@@ -38,13 +37,40 @@
         Pada penilaian awal, Pasien yang mengidap LUTS dapat diajukan untuk diberi tahu informasi dan waktu untuk menentukan apabila ingin mengambil test PSA, apabila :
     </string>
     <string name="investigation_list_4_text_1">
-        1. Gejala menunjukkan adanya obstruksi saluran keluar sekunder dari BPH
+        1. Gejala menunjukkan adanya obstruksi saluran keluar sekunder dari BPH.
     </string>
     <string name="investigation_list_4_text_2">
-        2. Prostate terasa tidak normal di DRE
+        2. Prostat terasa tidak normal di DRE.
     </string>
     <string name="investigation_list_4_text_3">
-        3. Pasien khawatir akan adanya kanker prostat
+        3. Pasien khawatir akan adanya kanker prostat.
     </string>
+
+    <string name="optional_investigation_intro">
+        Studi Opsional yang bisa berguna untuk mengkonfirmasi diagnosis atau mengevaluasi keberadaan dan keparahan BPH termasuk PVR, uroflowmetry dan studi aliran tekanan.
+    </string>
+    <string name="optional_investigation_list_1_title">
+        A. Cystoscopy
+    </string>
+    <string name="optional_investigation_list_1_text">
+        Pada Penilaian Awal, Cystoscopy tidak secara rutin ditawarkan, untuk pasien yang memiliki LUTS tidak berkomplikasi dan tidak memiliki bukti kelainan sistem urinari.
+    </string>
+    <string name="optional_investigation_list_2_title">
+        B. Uroflowmetry
+    </string>
+    <string name="optional_investigation_list_2_text">
+        Uroflowmetry adalah prosedur simple dan bebas resiko yang bisa menjadi tambahan penting dalam evaluasi LUTS,
+        Menurut AUA, laju aliran &lt; 10 mL/s menunjukkan spesifitas sebesar 70%, nilai prediksi positif sebesar 70% dan sensitifitas sebesar 47% untuk BOO.
+        Pengukuran laju aliran tidak rutin ditawarkan selama penilaian awal kepada pasien yang mengidap LUTS.
+    </string>
+    <string name="optional_investigation_list_3_title">
+        C. Volume Sisa Urin Setelah Berkemih
+    </string>
+    <string name="optional_investigation_list_3_text">
+        Menurut AUA, PVR bisa berguna dalam menentukan kemampuan dasar kandung kemih untuk mengosongkan, mendeteksi retensi urin parah yang mungkin tidak merespon terapi medis, dan/atau mengindikasikan disfungsi detrusor.
+        Tidak ada definisi yang diterima secara universal tentang volume urin residual yang signifikan secara klinis, mengikuti tren dari waktu ke waktu adalah cara terbaik untuk menggunakanakat ini.
+        Selama Penilaian Awal LUTS, PVR tidak secara rutin ditawarkan kepada pasien.
+    </string>
+
 
 </resources>
