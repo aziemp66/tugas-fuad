@@ -45,8 +45,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/investigation_list_1_text"
                 android:textSize="16sp"
-                android:layout_marginBottom="16dp"
-                android:textColor="@color/textPrimary" />
+                android:layout_marginBottom="16dp" />
 
         <!-- Investigation List 2 -->
         <TextView
@@ -63,8 +62,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/investigation_list_2_text"
                 android:textSize="16sp"
-                android:layout_marginBottom="16dp"
-                android:textColor="@color/textPrimary" />
+                android:layout_marginBottom="16dp" />
 
         <!-- Investigation List 3 -->
         <TextView
@@ -81,8 +79,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/investigation_list_3_text"
                 android:textSize="16sp"
-                android:layout_marginBottom="16dp"
-                android:textColor="@color/textPrimary" />
+                android:layout_marginBottom="16dp" />
 
         <!-- Investigation List 4 -->
         <TextView
@@ -99,8 +96,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/investigation_list_4_text"
                 android:textSize="16sp"
-                android:layout_marginBottom="16dp"
-                android:textColor="@color/textPrimary" />
+                android:layout_marginBottom="16dp" />
 
         <!-- Sub-list under Investigation List 4 -->
         <LinearLayout

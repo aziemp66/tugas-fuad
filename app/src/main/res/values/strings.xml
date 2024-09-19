@@ -71,6 +71,53 @@
         Tidak ada definisi yang diterima secara universal tentang volume urin residual yang signifikan secara klinis, mengikuti tren dari waktu ke waktu adalah cara terbaik untuk menggunakanakat ini.
         Selama Penilaian Awal LUTS, PVR tidak secara rutin ditawarkan kepada pasien.
     </string>
+    <string name="history_table_intro">Kategori Gejala pasien yang mengidap LUTS :</string>
+    <string name="history_list_1_title">
+        A. Gejala Pasien
+    </string>
+    <string name="history_list_1_text">
+       Gejala Pasien seharusnya diukur menggunakan IPSS/VPSS, untuk mengetahui apakah pasien memiliki gejala LUTS.
+        Pasien yang memiliki LUTS mengkhawatirkan mungkin diperlukan untuk menyelesaikan tes frekuensi volume urin.
+    </string>
 
+    <string-array name="storage_symptoms">
+        <item>Frekuensi berkemih meningkat</item>
+        <item>Nocturia</item>
+        <item>Urgensi</item>
+        <item>Inkontinensia</item>
+    </string-array>
 
+    <!-- Voiding Symptoms -->
+    <string-array name="voiding_symptoms">
+        <item>Aliran urine lemah</item>
+        <item>Hesitansi</item>
+        <item>Intermitensi</item>
+        <item>Mengedan</item>
+        <item>Pengosongan kandung kemih yang tidak lengkap</item>
+    </string-array>
+
+    <!-- Post-Micturition Symptoms -->
+    <string-array name="post_micturition_symptoms">
+        <item>Dribbling pasca-berkemih</item>
+        <item>Perasaan tidak kosong</item>
+    </string-array>
+
+    <string name="history_list_2_title">
+        B. Mengidentifikasi Kemungkinan Penyebab LUTS dan Penyakit Penyerta Terkait
+    </string>
+    <string name="history_list_2_text">
+        BPH, Kelemahan atau aktivitas berlebihan otot detrusor, Peradangan Prostat, UTI, Kanker Prostat dan Penyakit Neurologis
+    </string>
+    <string name="history_list_3_title">
+        C. Tinjauan Obat-obatan Yang Pasien Sedang Konsumsi
+    </string>
+    <string name="history_list_3_text">
+        Mulai dari obat herbal hingga obat yang sering dijumpai di lemari setiap rumah
+    </string>
+    <string name="history_list_4_title">
+        D. Mengidentifikasi Komplikasi
+    </string>
+    <string name="history_list_4_text">
+        LUTS berkomplikasi dengan UTI berulang atau persisten, retensi urin berulang, Pasca Gagal Ginjal
+    </string>
 </resources>
