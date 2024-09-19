@@ -49,5 +49,11 @@ class MainActivity : AppCompatActivity() {
 
       startActivity(intent)
     }
+
+    physicalButton.setOnClickListener {
+      val intent = Intent(this, PhysicalActivity::class.java)
+
+      startActivity(intent)
+    }
   }
 }

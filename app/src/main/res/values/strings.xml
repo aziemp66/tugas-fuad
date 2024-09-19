@@ -120,4 +120,32 @@
     <string name="history_list_4_text">
         LUTS berkomplikasi dengan UTI berulang atau persisten, retensi urin berulang, Pasca Gagal Ginjal
     </string>
+    <string name="physical_intro">
+        Lakukan ujian fisik di bantu oleh gejala urologi dan kondisi medis lainnya
+    </string>
+    <string name="physical_list_1_title">
+        A. Pemeriksaan Perut
+    </string>
+    <string name="physical_list_1_text">
+        Kandung kemih akan teraba jika terdapat retensi urin akut/kronis.
+    </string>
+    <string name="physical_list_2_title">
+        B. Digital Rektal Examination (DRE)
+    </string>
+    <string name="physical_list_2_text">
+        DRE yang benar bisa menentukan besar, simetri, konsistensi, keperabaan median sulcus dan keberadaan modul/massa dan kelembutan prostat.
+
+        Normalnya kelenjar itu sebesar kacang kenari, 2-3 cm namun lebih lebar pada di atas
+    </string>
+    <string-array name="physical_dre_bph_findings">
+        <item>Kelenjar menonjol ke dalam rektum, permukaannya halus, pembesarannya seringkali asimetris, konsistensinya keras, kenyal, dan homogen namun tidak nyeri tekan</item>
+        <item>Bahkan dengan pembesaran, sulkus median dapat diraba dan mukosa rektum bergerak bebas di atas kelenjar.</item>
+    </string-array>
+    <string-array name="physical_dre_prostate_carcinoma_finding">
+        <item>Kelenjar dapat membesar secara asimetris, dengan kontur tidak teratur dan tekstur heterogen. Beberapa area keras dan berbenjol-benjol; yang lain lunak.</item>
+        <item>Mukosa rektum mungkin terikat pada kelenjar, sulkus median tidak teraba. Jaringan di sekitar pelvis, rektum, vesikula seminalis mungkin terinfiltrasi.</item>
+        <item>Tanda-tanda pada tulang, kulit dan tempat-tempat yang tidak biasa lainnya mungkin mengindikasikan adanya metastasis.</item>
+        <item>Kelenjar prostat mungkin tidak memiliki ciri-ciri di atas tetapi dengan nilai PSA yang meningkat.</item>
+    </string-array>
+
 </resources>

@@ -33,6 +33,9 @@
         <activity
                 android:name=".HistoryActivity"
                 android:exported="true" />
+        <activity
+                android:name=".PhysicalActivity"
+                android:exported="true" />
     </application>
 
 </manifest>
