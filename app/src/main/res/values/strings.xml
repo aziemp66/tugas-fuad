@@ -1,26 +1,25 @@
 <resources>
     <string name="app_name">BPH Guide</string>
     <string name="author">By Fuad Fadillah</string>
-    <string name="welcome">Penilaian Klinis LUTS/BPH</string>
+    <string name="welcome">Penilaian Klinis LUTS &amp; BPH</string>
     <string name="menu_main">Kembali ke Menu Utama</string>
     <string name="menu_about">Definisi LUTS/BPH</string>
     <string name="menu_history">Anamnesis</string>
     <string name="menu_physical_exam">Pemeriksaan Fisik</string>
     <string name="menu_investigation">Pemeriksaan Penunjang</string>
     <string name="menu_optional_investigation">Pemeriksaan Penunjang Lainnya</string>
-    <string name="about_title">Definisi LUTS</string>
+    <string name="about_title">Definisi LUTS &amp; BPH</string>
     <string name="about_text_luts">
         Lower urinary tract symptoms (LUTS) atau gejala saluran kemih bagian bawah adalah serangkaian gejala yang berkaitan dengan gangguan fungsi kandung kemih dan uretra (saluran yang membawa urin keluar dari tubuh). Gejala LUTS dapat mencakup sering buang air kecil, kesulitan memulai buang air kecil, aliran urin yang lemah, rasa tidak tuntas setelah buang air kecil, atau sering terbangun di malam hari untuk buang air kecil (nokturia).
     </string>
     <string name="about_text_bph">
         Benign Prostate Hyperplasia (BPH) atau Hiperplasia Prostat Jinak adalah pembesaran prostat yang sering terjadi pada pria yang lebih tua. Pembesaran ini dapat menekan uretra dan menyebabkan gejala LUTS, seperti sulit buang air kecil, aliran urin yang lemah, atau sering buang air kecil. Meski tidak bersifat kanker, BPH bisa memengaruhi kualitas hidup jika gejalanya cukup mengganggu.
     </string>
-    <string name="investigation_intro">Investigasi Lebih Lanjut bisa membantu memperkuat diagnosis</string>
     <string name="investigation_list_1_title">A. Urinalysis</string>
     <string name="investigation_list_1_text">
-        Walaupun Urinalysis tidak bisa mendiagnosis BPH, namun bisa membantu Dokter untuk mengecualikan kasus lain LUTS yang tidak berkaitan dengan BPH, seperti Kanker Kandung Kemih, Batu Ginjal, UTI, Striktur Uretra.
+        Walaupun Urinalysis tidak bisa mendiagnosis BPH, namun bisa membantu Dokter untuk mengeliminasi kasus LUTS lain yang tidak berkaitan dengan BPH, seperti Kanker Kandung Kemih, Batu Ginjal, UTI, Striktur Uretra.
 
-        Ketika sedang menginpretasi hasil dari Urinalysis, Dokter bisa fokus mengecek apakah terdapat Glucosuria, Proteinuria, Hermaturia atau Infeksi.
+        Ketika sedang menginpretasikan hasil dari Urinalysis, Dokter bisa fokus mengecek apakah terdapat Glucosuria, Proteinuria, Hermaturia atau Infeksi.
     </string>
     <string name="investigation_list_2_title">B. Ultrasound</string>
     <string name="investigation_list_2_text">
@@ -37,7 +36,7 @@
         Pada penilaian awal, Pasien yang mengidap LUTS dapat diajukan untuk diberi tahu informasi dan waktu untuk menentukan apabila ingin mengambil test PSA, apabila :
     </string>
     <string name="investigation_list_4_text_1">
-        1. Gejala menunjukkan adanya obstruksi saluran keluar sekunder dari BPH.
+        1. Gejala menunjukkan adanya obstruksi saluran keluar kandung kemih sekunder dari BPH.
     </string>
     <string name="investigation_list_4_text_2">
         2. Prostat terasa tidak normal di DRE.
@@ -64,7 +63,7 @@
         Pengukuran laju aliran tidak rutin ditawarkan selama penilaian awal kepada pasien yang mengidap LUTS.
     </string>
     <string name="optional_investigation_list_3_title">
-        C. Post-Void Resiual Volume
+        C. Post-Void Residual Volume
     </string>
     <string name="optional_investigation_list_3_text">
         Menurut AUA, PVR bisa berguna dalam menentukan kemampuan dasar kandung kemih untuk mengosongkan, mendeteksi retensi urin parah yang mungkin tidak merespon terapi medis, dan/atau mengindikasikan disfungsi detrusor.
@@ -84,22 +83,22 @@
         <item>Frequency</item>
         <item>Nocturia</item>
         <item>Urgency</item>
-        <item>Urgency Inkontinence</item>
+        <item>Urgency Incontinence</item>
     </string-array>
 
     <!-- Voiding Symptoms -->
     <string-array name="voiding_symptoms">
-        <item>Aliran urine lemah</item>
-        <item>Hesitansi</item>
-        <item>Intermitensi</item>
-        <item>Mengedan</item>
-        <item>Pengosongan kandung kemih yang tidak lengkap</item>
+        <item>Poor Stream</item>
+        <item>Intermittency</item>
+        <item>Straining</item>
+        <item>Hesistancy</item>
+        <item>Terminal Dribbling</item>
+        <item>Incomplete Emptying</item>
     </string-array>
 
     <!-- Post-Micturition Symptoms -->
     <string-array name="post_micturition_symptoms">
-        <item>Dribbling pasca-berkemih</item>
-        <item>Perasaan tidak kosong</item>
+        <item>Post-Micturition Dribbling</item>
     </string-array>
 
     <string name="history_list_2_title">
@@ -124,7 +123,7 @@
         Lakukan ujian fisik di bantu oleh gejala urologi dan kondisi medis lainnya
     </string>
     <string name="physical_list_1_title">
-        A. Pemeriksaan Perut
+        A. Pemeriksaan Fisik Abdomen
     </string>
     <string name="physical_list_1_text">
         Kandung kemih akan teraba jika terdapat retensi urin akut/kronis.
@@ -133,7 +132,7 @@
         B. Digital Rektal Examination (DRE)
     </string>
     <string name="physical_list_2_text">
-        DRE yang benar bisa menentukan besar, simetri, konsistensi, keperabaan sulcus median dan keberadaan modul/massa dan kelembutan prostat.
+        DRE yang benar bisa menentukan besar, simetri, konsistensi, keperabaan sulkus median dan keberadaan modul/massa dan kelembutan prostat.
 
         Normalnya kelenjar itu sebesar kacang kenari, 2-3 cm namun lebih lebar pada di atas
     </string>
@@ -148,7 +147,7 @@
         <item>Kelenjar prostat mungkin tidak memiliki ciri-ciri di atas tetapi dengan nilai PSA yang meningkat.</item>
     </string-array>
 
-    <string name="lifestyle_title">Perubahan gaya hidup</string>
+    <string name="lifestyle_title">Perubahan Gaya Hidup</string>
     <string name="lifestyle_instructions">Yakinkan pasien dan tawarkan saran tentang intervensi gaya hidup seperti di bawah ini</string>
 
     <!-- Lifestyle suggestions -->
@@ -173,50 +172,50 @@
     <string name="lifestyle_next_action">Teruskan tindak lanjutnya</string>
     <string name="lifestyle_back_to_home">Kembali ke Halaman Utama</string>
     <string name="menu_lifestyle">Perubahan Gaya Hidup</string>
-    <string name="menu_medical_therapy">Terapi Medis</string>
-    <string name="menu_surgical_intervention">Intervensi Bedah</string>
+    <string name="menu_medical_therapy">Terapi Farmakologi</string>
+    <string name="menu_surgical_intervention">Bedah</string>
 
     <string name="medical_therapy_intro">
         Terapi farmakologis harus diberikan kepada pasien dengan LUTS/BPH yang mengganggu atau sedang dan berat.
     </string>
-    <string name="medical_therapy_list_1_title">Penghambat Alfa</string>
+    <string name="medical_therapy_list_1_title">Alpha Blocker</string>
     <string name="medical_therapy_list_1_text">
 
-Penghambat alfa misalnya Terazosin alfuzosin, doxazosin, tamsulosin efektif dalam memperbaiki gejala LUTS
+Alpha Blocker misalnya Terazosin alfuzosin, doxazosin, tamsulosin efektif dalam memperbaiki gejala LUTS
 \n\n
 Dosis terazosin:
 
-Awal: 1mg ON Pemeliharaan: 5mg~10mg sekali sehari Maksimal 20-40mg/hari: Dari Buku Biru Malaysia 2022
+Awal: 1mg ON Pemeliharaan: 5mg~10mg sekali sehari Maksimal 20-40mg/hari
     </string>
     <string name="medical_therapy_list_1_extra">
-        Info tambahan: Menurut AUA, semua penghambat Alfa telah menunjukkan kemanjuran yang sama dalam penelitian, oleh karena itu tidak disarankan untuk beralih di antara penghambat alfa yang berbeda jika pasien gagal memperoleh perbaikan yang cukup dengan obat pertama dalam dosis yang tepat, karena kemungkinan besar keberhasilannya tidak akan tercapai.\n\n
+        Info tambahan: Menurut AUA, semua Alpha Blocker telah menunjukkan kemanjuran yang sama dalam penelitian, oleh karena itu tidak disarankan untuk beralih di antara Alpha Blocker yang berbeda jika pasien gagal memperoleh perbaikan yang cukup dengan obat pertama dalam dosis yang tepat, karena kemungkinan besar keberhasilannya tidak akan tercapai.\n\n
 
 Sebaliknya, dianjurkan untuk menilai ulang dan mendiskusikan strategi pengobatan alternatif atau untuk menyelidiki lebih lanjut fenotipe pasien (misalnya, menyingkirkan prostat yang terlalu besar atau adanya lobus intravesikal/tengah).
         Namun, mengganti dari satu alpha blocker ke alpha blocker lain berdasarkan efek sampingnya adalah hal yang bermanfaat.
     </string>
     <string name="medical_therapy_list_2_title">
-Penghambat fosfodiesterase 5
+        5 Alpha Reductase Inhibitor
     </string>
     <string name="medicaL_therapy_list_2_text">
-Inhibitor 5 alfa reduktase seperti Finasteride\n\n
+Inhibitor 5 Alpha Reductase Inhibitor seperti Finasteride\n\n
 
 [Dewasa: Sebagai monoterapi atau kombinasi dengan doxazosin: 5 mg sekali sehari selama minimal 6 bulan.]\n\n
 
-dan dutasterida\n\n
+dan Dutastetide\n\n
 
 [Dosis AVODART yang dianjurkan adalah satu kapsul (0,5 mg) yang diminum sekali sehari. Untuk pengobatan BPH, AVODART dapat diberikan sendiri atau dikombinasikan dengan alfa-blocker tamsulosin (0,4 mg).]\n\n
 
-bertindak melalui penghambatan 5 alfa reduktase, yang menyebabkan berkurangnya ketersediaan DHT di prostat.\n\n
+bertindak melalui 5 Alpha Reductase Inhibitor, yang menyebabkan berkurangnya ketersediaan DHT di prostat.\n\n
 
 Hal ini pada gilirannya menyebabkan pengurangan keseluruhan rangsangan pertumbuhan androgenik pada prostat, peningkatan apoptosis dan atrofi, dan akhirnya penyusutan organ berkisar antara 15-25% yang diukur
 pada usia enam bulan.\n\n
 
-Untuk tujuan perbaikan gejala, monoterapi 5-ARI harus digunakan sebagai pilihan pengobatan pada pasien dengan LUTS/BPH dengan pembesaran prostat sebagaimana dinilai dari volume prostat > 30cc pada pencitraan, antigen spesifik prostat (PSA) > 1,5ng/dL, atau pembesaran prostat yang teraba pada pemeriksaan colok dubur (DRE). (Rekomendasi Moderat; Tingkat Bukti: Kelas B)\n\n
+Untuk tujuan perbaikan gejala, monoterapi 5-ARI harus digunakan sebagai pilihan pengobatan pada pasien dengan LUTS &amp; BPH dengan pembesaran prostat sebagaimana dinilai dari volume prostat > 30cc pada pencitraan, antigen spesifik prostat (PSA) > 1,5ng/dL, atau pembesaran prostat yang teraba pada pemeriksaan colok dubur (DRE). (Rekomendasi Moderat; Tingkat Bukti: Kelas B)\n\n
 
 Sebelum memulai 5-ARI, dokter harus memberi tahu pasien tentang risiko efek samping seksual, efek samping fisik tertentu yang tidak umum, dan risiko rendah kanker prostat. (Rekomendasi Moderat; Tingkat Bukti: Kelas C)\n\n
     </string>
     <string name="medical_therapy_list_2_extra">
-        Finasterida\n\n
+        Finasteride\n\n
 
 *Tindakan pencegahan khusus Finasteride Kecualikan striktur uretra, infeksi, kanker, kandung kemih hipotonik &amp; gangguan neurogenik lainnya sebelum perawatan.\n\n
 
@@ -225,10 +224,10 @@ Perubahan pada jaringan payudara; kanker payudara pria. Pantau pasien dengan vol
 *Reaksi yang tidak diinginkan dari Finasteride meliputi hipersensitivitas misalnya, pruritus, urtikaria, angioedema; depresi; penurunan libido; disfungsi ereksi, gangguan ejakulasi, nyeri testis, hematospermia, kanker payudara pria, infertilitas pria &amp;/atau kualitas air mani yang buruk.\n\n
     </string>
     <string name="medical_therapy_list_3_title">
-        Antikolinergik
+        Anticholinergics
     </string>
     <string name="medical_therapy_list_3_text">
-        Agen antikolinergik, baik sendiri atau dalam kombinasi dengan penghambat alfa, dapat ditawarkan sebagai pilihan pengobatan bagi pasien dengan LUTS penyimpanan dominan sedang hingga berat. (Rekomendasi Bersyarat; Tingkat Bukti: Kelas C) misalnya Tolterodin American Urological
+        Agen Anticholinergics, baik sendiri atau dalam kombinasi dengan penghambat alfa, dapat ditawarkan sebagai pilihan pengobatan bagi pasien dengan LUTS penyimpanan dominan sedang hingga berat. (Rekomendasi Bersyarat; Tingkat Bukti: Kelas C) misalnya Tolterodin American Urological
     </string>
     <string name="medical_therapy_list_4_title">
         Penghambat fosfodiesterase 5

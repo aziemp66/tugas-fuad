@@ -20,13 +20,13 @@ class HistoryActivity : AppCompatActivity() {
     val tableLayout: TableLayout = findViewById(R.id.table_layout)
 
     // Add Storage Symptoms
-    addCategoryToTable(tableLayout, R.array.storage_symptoms, "Gejala Penyimpanan")
+    addCategoryToTable(tableLayout, R.array.storage_symptoms, "Storage")
 
     // Add Voiding Symptoms
-    addCategoryToTable(tableLayout, R.array.voiding_symptoms, "Gejala Pengosongan")
+    addCategoryToTable(tableLayout, R.array.voiding_symptoms, "Voiding")
 
     // Add Post-Micturition Symptoms
-    addCategoryToTable(tableLayout, R.array.post_micturition_symptoms, "Gejala Pasca-Miksi")
+    addCategoryToTable(tableLayout, R.array.post_micturition_symptoms, "Post-Micturition")
   }
 
   private fun addCategoryToTable(tableLayout: TableLayout, arrayResId: Int, categoryTitle: String) {

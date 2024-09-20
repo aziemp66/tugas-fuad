@@ -30,6 +30,7 @@
                 android:layout_marginBottom="24dp" />
 
         <ListView
+                android:padding="4dp"
                 android:id="@+id/suggestions_list_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

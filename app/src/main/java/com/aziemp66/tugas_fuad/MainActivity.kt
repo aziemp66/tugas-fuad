@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     surgicalIntervention.setOnClickListener {
-      val intent = Intent(this, surgicalIntervention::class.java)
+      val intent = Intent(this, SurgicalInterventionActivity::class.java)
 
       startActivity(intent)
     }
