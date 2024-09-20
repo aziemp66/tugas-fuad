@@ -2,10 +2,10 @@ package com.aziemp66.tugas_fuad
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
+import com.aziemp66.tugas_fuad.adapter.CustomAdapter
 
 class SurgicalInterventionActivity : AppCompatActivity() {
   private lateinit var mainMenuButton: Button
@@ -22,7 +22,7 @@ class SurgicalInterventionActivity : AppCompatActivity() {
     val suggestionsArray = resources.getStringArray(R.array.surgical_intervention_lists)
 
     // Create an ArrayAdapter to bind the string array to the ListView
-    val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, suggestionsArray)
+    val adapter = CustomAdapter(this, suggestionsArray)
 
     // Set the adapter to the ListView
     suggestionsListView.adapter = adapter

@@ -1,16 +1,11 @@
 package com.aziemp66.tugas_fuad
 
-import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ListView
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.aziemp66.tugas_fuad.adapter.CustomAdapter
 
 class LifestyleActivity : AppCompatActivity() {
   private lateinit var mainMenuButton: Button
@@ -45,15 +40,3 @@ class LifestyleActivity : AppCompatActivity() {
 
 }
 
-class CustomAdapter(private val context: Context, private val data: Array<String>) :
-  ArrayAdapter<String>(context, 0, data) {
-  override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-    val listItem =
-      convertView ?: LayoutInflater.from(context).inflate(R.layout.list_item, parent, false)
-
-    val textView = listItem.findViewById<TextView>(R.id.item_text)
-    textView.text = getItem(position)
-
-    return listItem
-  }
-}

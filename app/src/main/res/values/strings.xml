@@ -17,7 +17,7 @@
     </string>
     <string name="investigation_list_1_title">A. Urinalysis</string>
     <string name="investigation_list_1_text">
-        Walaupun Urinalysis tidak bisa mendiagnosis BPH, namun bisa membantu Dokter untuk mengeliminasi kasus LUTS lain yang tidak berkaitan dengan BPH, seperti Kanker Kandung Kemih, Batu Ginjal, UTI, Striktur Uretra.
+        Walaupun Urinalysis tidak bisa mendiagnosis BPH, namun bisa membantu Dokter untuk mengeliminasi kasus LUTS lain yang tidak berkaitan dengan BPH, seperti Kanker Kandung Kemih, Batu Ginjal, UTI, Striktur Uretra.\n\n
 
         Ketika sedang menginpretasikan hasil dari Urinalysis, Dokter bisa fokus mengecek apakah terdapat Glucosuria, Proteinuria, Hermaturia atau Infeksi.
     </string>
@@ -152,14 +152,14 @@
 
     <!-- Lifestyle suggestions -->
     <string-array name="lifestyle_suggestions">
-        <item>A. Batasi asupan cairan sebelum tidur atau bepergian.</item>
+        <item>A. Batasi asupan cairan sebelum tidur atau bepergian</item>
         <item>B. Hindari diuretik seperti alkohol dan kafein</item>
         <item>C. Hindari iritan kandung kemih misalnya makanan yang sangat pedas dan bersifat iritatif</item>
         <item>D. Hindari sembelit dan tingkatkan aktivitas fisik</item>
         <item>E. Saran untuk menurunkan berat badan</item>
         <item>F. Latihan Kegel</item>
-        <item>G.Regimen pengosongan kandung kemih yang terjadwal [misalnya buang air kecil setiap 3 jam] dan teknik pengosongan kandung kemih ganda</item>
-        <item>H. Hindari dekongestan dan antihistamin yang dijual bebas yang dapat memperburuk gejala. Kenali obat lain yang dapat memperburuk gejala.</item>
+        <item>G. Regimen pengosongan kandung kemih yang terjadwal [misalnya buang air kecil setiap 3 jam] dan teknik pengosongan kandung kemih ganda</item>
+        <item>H. Hindari dekongestan dan antihistamin yang dijual bebas yang dapat memperburuk gejala. Kenali obat lain yang dapat memperburuk gejala</item>
     </string-array>
 
     <!-- Question about improvement -->
